@@ -18,12 +18,14 @@
   
   #heart {
     position: fixed;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 0;
+    left: 0;
+    width: 100vw; /* Width of viewport */
+    height: 100vh; /* Height of viewport */
     font-size: 750px; /* Adjust size as needed */
     color: red;
     opacity: 0.3;
+    text-align: center;
   }
   
   #content {
@@ -69,7 +71,8 @@
     "You make my heart skip a beat.",
     "Your love fills my heart with joy.",
     "You are the rhythm of my heart.",
-    "My heart belongs to you, now and forever."
+    "My heart belongs to you, now and forever.",
+    "I really love you nieya mwa"
   ];
 
   // Function to update the love message with fade-in and fade-out effect
@@ -84,7 +87,7 @@
   }
 
   // Update the love message every 5 seconds
-  setInterval(updateLoveMessage, 5000);
+  setInterval(updateLoveMessage, 2000);
 </script>
 </body>
 </html>
